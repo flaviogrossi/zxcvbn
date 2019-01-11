@@ -1,7 +1,7 @@
 {
-    "name": "zxcvbn",
+    "name": "zxcvbn-it",
     "description": "realistic password strength estimation",
-    "main": "dist/zxcvbn.js",
+    "main": "dist/zxcvbn-it.js",
     "keywords": [
         "password",
         "passphrase",

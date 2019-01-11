@@ -35,6 +35,9 @@ DICTIONARIES = dict(
     surnames          = 10000,
     male_names        = None,
     female_names      = None,
+    italian_wikipedia = 30000,
+    italian_names     = None,
+    italian_surnames  = None,
 )
 
 # returns {list_name: {token: rank}}, as tokens and ranks occur in each file.

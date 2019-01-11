@@ -13,8 +13,8 @@
     "watch": "npm run watch-lib & npm run watch-dist",
     "build-lib": "coffee -o lib --compile --bare --map src/*.coffee",
     "watch-lib": "coffee -o lib --compile --bare --map --watch src/*.coffee",
-    "build-dist": "browserify --debug  --standalone zxcvbnIt -t coffeeify --extension='.coffee' -t uglifyify src/main.coffee |   exorcist --base . dist/zxcvbn-it.js.map >| dist/zxcvbn-it.js",
-    "watch-dist": "watchify --debug -v --standalone zxcvbnIt -t coffeeify --extension='.coffee' -t uglifyify src/main.coffee -o 'exorcist --base . dist/zxcvbn-it.js.map >| dist/zxcvbn-it.js'",
+    "build-dist": "browserify --debug  --standalone zxcvbn -t coffeeify --extension='.coffee' -t uglifyify src/main.coffee |   exorcist --base . dist/zxcvbn-it.js.map >| dist/zxcvbn-it.js",
+    "watch-dist": "watchify --debug -v --standalone zxcvbn -t coffeeify --extension='.coffee' -t uglifyify src/main.coffee -o 'exorcist --base . dist/zxcvbn-it.js.map >| dist/zxcvbn-it.js'",
     "prepublish": "npm run build"
   },
   "devDependencies": {

@@ -1,6 +1,7 @@
 ```
 This is a version of the `zxcvbn` password strength estimator with added data
-files for the italian language.
+files for the italian language. Credits to napolux/paroleitaliane for the list
+of names and surnames.
 
 _________________________________________________/\/\___________________
 _/\/\/\/\/\__/\/\__/\/\____/\/\/\/\__/\/\__/\/\__/\/\________/\/\/\/\___
